@@ -1,9 +1,0 @@
-Enable-PSRemoting
-
-New-Session "Instance"
-
-Enable-NewSession "Instance" 
-
-./winrm.cmd
-	
-Invoke-Command -ComputerName . -Scriptblock {Get-Process} 

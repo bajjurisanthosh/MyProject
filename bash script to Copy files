@@ -1,2 +1,0 @@
-xcopy c:\folder\*.* d:\another_folder\. /Y
-##
